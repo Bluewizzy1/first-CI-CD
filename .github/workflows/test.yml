@@ -7,7 +7,7 @@ on:
 
 jobs:
   test1:
-  runs-on: ubuntu-lates
+  runs-on: ubuntu-latest
   steps:
     name: greetings
     run: echo "Say hello world. This is our first pipeline"
